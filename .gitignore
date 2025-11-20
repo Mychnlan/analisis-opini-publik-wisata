@@ -1,0 +1,80 @@
+# =========================
+# PYTHON VENV & CACHE
+# =========================
+venv/
+venv*/ 
+.env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# IDE / EDITOR
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# MODEL / LARGE FILES
+# =========================
+# PyTorch
+*.pt
+*.pth
+*.bin
+*.dll
+*.so
+*.dylib
+torch_cpu.dll
+torch_cuda.dll
+
+# TensorFlow / Keras
+*.h5
+*.keras
+*.tflite
+
+# Checkpoints
+checkpoint/
+checkpoints/
+*.ckpt
+
+# =========================
+# DATASETS
+# =========================
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.parquet
+
+# Big media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wav
+*.mp3
+
+# =========================
+# LOGS / OUTPUT
+# =========================
+logs/
+*.log
+wandb/
+outputs/
+runs/
+
+# =========================
+# MISC
+# =========================
+*.zip
+*.rar
+
